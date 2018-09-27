@@ -1,0 +1,29 @@
+//@import 'test/index';
+//@import 'variables';
+@import 'grid';
+
+ ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        padding: 10px;
+        margin: 5px;
+        border: 2px solid black;
+        cursor: pointer;
+        background-color: #fff;
+        font-size: 1.2em;
+
+      }
+    }
+
+    .correct {
+      color: green;
+      background-color: #d2f7c3;
+      font-weight: bold;
+    }
+
+    .incorrect {
+      color: red;
+      background-color: #f9ab9f;
+    }
